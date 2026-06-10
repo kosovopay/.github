@@ -14,8 +14,8 @@ No per-bank plumbing. No surprises.
 
 [![Website](https://img.shields.io/badge/kosovo.sh-2563eb?style=flat-square&logo=icloud&logoColor=white)](https://kosovo.sh)
 [![API Docs](https://img.shields.io/badge/API_reference-1f2937?style=flat-square&logo=readthedocs&logoColor=white)](https://api.kosovo.sh/docs)
-[![100% Free](https://img.shields.io/badge/100%25_free_%26_open_source-22c55e?style=flat-square)](#free-as-in-freedom-and-as-in-zero)
-[![MIT](https://img.shields.io/badge/license-MIT-3da639?style=flat-square)](https://opensource.org/licenses/MIT)
+[![Free to use](https://img.shields.io/badge/free_to_use-%E2%82%AC0-22c55e?style=flat-square)](#free-to-use)
+[![License](https://img.shields.io/badge/license-KosovoPay_1.0-3da639?style=flat-square)](https://github.com/kosovopay/php-sdk/blob/master/LICENSE)
 
 [![PHP](https://img.shields.io/badge/PHP-php--sdk-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://github.com/kosovopay/php-sdk)
 &nbsp;[![Python](https://img.shields.io/badge/Python-kosovopay-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/kosovopay/python-sdk)
@@ -105,17 +105,19 @@ listed **for reference and interoperability only** (see the [disclaimer](#%EF%B8
 
 ---
 
-## Free as in freedom. And as in zero.
+## Free to use
 
-**Every SDK is open source under the [MIT License](https://opensource.org/licenses/MIT) — and free, forever.**
+**Every SDK is free to use — including commercially — at no charge.** The source is public, so you can
+read and audit every line. The libraries are maintained **solely by KosovoPay**.
 
-- ✅ Use it, fork it, ship it — commercial or not.
-- ✅ No license fees, no per-seat costs, no paywalls.
+- ✅ Use, run, and integrate — commercial use included, **€0**, no per-seat fees, no paywalls.
+- ✅ Read the full source — nothing hidden.
 - ✅ No lock-in: your bank keys stay yours.
+- ❌ No forking, modifying, redistributing, or reverse-engineering — KosovoPay maintains the SDKs.
 
 | Libraries | License | Cost |
 |---|---|---|
-| [php-sdk](https://github.com/kosovopay/php-sdk) · [python-sdk](https://github.com/kosovopay/python-sdk) · [go-sdk](https://github.com/kosovopay/go-sdk) · [dotnet-sdk](https://github.com/kosovopay/dotnet-sdk) | **MIT** | **€0, forever** |
+| [php-sdk](https://github.com/kosovopay/php-sdk) · [python-sdk](https://github.com/kosovopay/python-sdk) · [go-sdk](https://github.com/kosovopay/go-sdk) · [dotnet-sdk](https://github.com/kosovopay/dotnet-sdk) | **KosovoPay License 1.0** | **€0, forever** |
 
 ---
 
