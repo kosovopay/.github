@@ -13,7 +13,7 @@ No per-bank plumbing. No surprises.
 <br/>
 
 [![Website](https://img.shields.io/badge/kosovo.sh-2563eb?style=flat-square&logo=icloud&logoColor=white)](https://kosovo.sh)
-[![API Docs](https://img.shields.io/badge/API_reference-1f2937?style=flat-square&logo=readthedocs&logoColor=white)](https://api.kosovo.sh/docs)
+[![API Docs](https://img.shields.io/badge/API_reference-1f2937?style=flat-square&logo=readthedocs&logoColor=white)](https://pay.kosovo.sh/docs)
 [![Free to use](https://img.shields.io/badge/free_to_use-%E2%82%AC0-22c55e?style=flat-square)](#free-to-use)
 [![License](https://img.shields.io/badge/license-KosovoPay_1.0-3da639?style=flat-square)](https://github.com/kosovopay/php-sdk/blob/master/LICENSE)
 
@@ -85,20 +85,20 @@ listed **for reference and interoperability only** (see the [disclaimer](#%EF%B8
 
 | | Bank | Website |
 |:--:|---|---|
-| <img src="https://raiffeisen-kosovo.com/favicon.ico" height="22" alt=""> | **Raiffeisen Bank Kosovo** | [raiffeisen-kosovo.com](https://www.raiffeisen-kosovo.com) |
-| <img src="https://www.procreditbank-kos.com/favicon.ico" height="22" alt=""> | **ProCredit Bank Kosovo** | [procreditbank-kos.com](https://www.procreditbank-kos.com) |
-| <img src="https://www.nlb-kos.com/favicon.ico" height="22" alt=""> | **NLB Banka Kosovo** | [nlb-kos.com](https://www.nlb-kos.com) |
-| <img src="https://bkt-ks.com/favicon.ico" height="22" alt=""> | **Banka Kombëtare Tregtare — BKT Kosova** | [bkt-ks.com](https://bkt-ks.com) |
-| <img src="https://teb-kos.com/favicon.ico" height="22" alt=""> | **TEB Sh.A.** | [teb-kos.com](https://teb-kos.com) |
-| <img src="https://www.bpbbank.com/favicon.ico" height="22" alt=""> | **Banka për Biznes — BPB** | [bpbbank.com](https://www.bpbbank.com) |
+| <img src="https://www.google.com/s2/favicons?domain=raiffeisen-kosovo.com&sz=128" width="22" height="22" alt=""> | **Raiffeisen Bank Kosovo** | [raiffeisen-kosovo.com](https://www.raiffeisen-kosovo.com) |
+| <img src="https://www.google.com/s2/favicons?domain=procreditbank-kos.com&sz=128" width="22" height="22" alt=""> | **ProCredit Bank Kosovo** | [procreditbank-kos.com](https://www.procreditbank-kos.com) |
+| <img src="https://www.google.com/s2/favicons?domain=nlb-kos.com&sz=128" width="22" height="22" alt=""> | **NLB Banka Kosovo** | [nlb-kos.com](https://www.nlb-kos.com) |
+| <img src="https://www.google.com/s2/favicons?domain=bkt-ks.com&sz=128" width="22" height="22" alt=""> | **Banka Kombëtare Tregtare — BKT Kosova** | [bkt-ks.com](https://bkt-ks.com) |
+| 🏦 | **TEB Sh.A.** | [teb-kos.com](https://teb-kos.com) |
+| <img src="https://www.google.com/s2/favicons?domain=bpbbank.com&sz=128" width="22" height="22" alt=""> | **Banka për Biznes — BPB** | [bpbbank.com](https://www.bpbbank.com) |
 | 🏦 | **Banka Ekonomike** | [bankaekonomike.com](https://bankaekonomike.com) |
 
 ### Payment institutions &amp; fintech wallets
 
 | | Provider | Website |
 |:--:|---|---|
-| <img src="https://onefor.com/favicon.ico" height="22" alt=""> | **Onefor** | [onefor.com](https://onefor.com) |
-| <img src="https://www.paysera.com/favicon.ico" height="22" alt=""> | **Paysera** | [paysera.com](https://www.paysera.com) |
+| <img src="https://www.google.com/s2/favicons?domain=onefor.com&sz=128" width="22" height="22" alt=""> | **Onefor** | [onefor.com](https://onefor.com) |
+| <img src="https://www.google.com/s2/favicons?domain=paysera.com&sz=128" width="22" height="22" alt=""> | **Paysera** | [paysera.com](https://www.paysera.com) |
 
 > Regulator: **Central Bank of the Republic of Kosovo (BQK)** — [bqk-kos.org](https://bqk-kos.org).
 > The complete, authoritative list of licensed institutions is published by the BQK.
@@ -139,6 +139,6 @@ read and audit every line. The libraries are maintained **solely by KosovoPay**.
 
 One API. Every bank. Get paid.
 
-**[kosovo.sh](https://kosovo.sh)** · **[Docs](https://api.kosovo.sh/docs)** · made in Kosovo 🇽🇰 for developers everywhere
+**[kosovo.sh](https://kosovo.sh)** · **[Docs](https://pay.kosovo.sh/docs)** · made in Kosovo 🇽🇰 for developers everywhere
 
 </div>
