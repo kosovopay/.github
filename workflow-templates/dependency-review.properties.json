@@ -1,0 +1,6 @@
+{
+  "name": "Dependency Review",
+  "description": "Block pull requests that introduce vulnerable or disallowed dependencies.",
+  "iconName": "shield",
+  "categories": ["Security"]
+}

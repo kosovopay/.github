@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://pay.kosovo.sh/docs
+    about: API reference and integration guides — most questions are answered here.
+  - name: 🔐 Report a security vulnerability
+    url: https://github.com/kosovopay/.github/blob/master/SECURITY.md
+    about: Do NOT open a public issue. Email security@kosovo.sh.
+  - name: 💬 Integration or account help
+    url: mailto:developers@kosovo.sh
+    about: Questions about integrating, API keys, or your account.

@@ -1,0 +1,60 @@
+name: 🐞 Bug report
+description: Something in an SDK or the API isn't working as documented.
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. A minimal reproduction gets you a fix far faster.
+        **Security issue?** Do not use this form — email security@kosovo.sh.
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Which SDK / surface?
+      options:
+        - PHP SDK (kosovopay/php-sdk)
+        - Python SDK (kosovopay/python-sdk)
+        - Go SDK (kosovopay/go-sdk)
+        - .NET SDK (kosovopay/dotnet-sdk)
+        - HTTP API (api.kosovo.sh)
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: SDK / runtime version
+      placeholder: "e.g. php-sdk 1.1.1 on PHP 8.3"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what actually happened?
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: Minimal code or curl. Redact API keys and secrets.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: request-id
+    attributes:
+      label: Request ID (optional)
+      description: The X-Request-Id / request_id from the error envelope. Never paste keys.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues.
+          required: true
+        - label: I'm on the latest SDK version (or explained why not).
+          required: true
+        - label: This is not a security issue (those go to security@kosovo.sh).
+          required: true

@@ -1,0 +1,6 @@
+{
+  "name": "OpenSSF Scorecard",
+  "description": "Supply-chain security health checks; results appear in code scanning.",
+  "iconName": "shield",
+  "categories": ["Security"]
+}

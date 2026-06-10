@@ -1,0 +1,35 @@
+# OpenSSF Scorecard — supply-chain security health checks. Results surface in
+# the repository's Security > Code scanning tab.
+name: OpenSSF Scorecard
+
+on:
+  branch_protection_rule:
+  schedule:
+    - cron: "0 6 * * 1"
+  push:
+    branches: ["$default-branch"]
+
+permissions: read-all
+
+jobs:
+  analysis:
+    name: Scorecard analysis
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      id-token: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - name: Run analysis
+        uses: ossf/scorecard-action@v2
+        with:
+          results_file: results.sarif
+          results_format: sarif
+          publish_results: true
+      - name: Upload SARIF
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif
