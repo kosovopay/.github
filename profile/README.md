@@ -21,6 +21,7 @@ No per-bank plumbing. No surprises.
 &nbsp;[![Python](https://img.shields.io/badge/Python-kosovopay-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/kosovopay/python-sdk)
 &nbsp;[![Go](https://img.shields.io/badge/Go-go--sdk-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://github.com/kosovopay/go-sdk)
 &nbsp;[![.NET](https://img.shields.io/badge/.NET-KosovoPay-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/kosovopay/dotnet-sdk)
+&nbsp;[![TypeScript](https://img.shields.io/badge/TypeScript-server--sdk-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/kosovopay/js-server-sdk)
 
 </div>
 
@@ -64,7 +65,7 @@ header("Location: {$payment->hostedUrl}");   // and they're off to checkout
 
 ## Pick your language
 
-Four SDKs, one contract. Typed end-to-end, statically analysed, tested, CI-gated.
+Five SDKs, one contract. Typed end-to-end, statically analysed, tested, CI-gated.
 
 | Language | Package | Install |
 |---|---|---|
@@ -72,6 +73,7 @@ Four SDKs, one contract. Typed end-to-end, statically analysed, tested, CI-gated
 | **Python** | [`kosovopay`](https://github.com/kosovopay/python-sdk) | `pip install kosovopay` |
 | **Go** | [`github.com/kosovopay/go-sdk`](https://github.com/kosovopay/go-sdk) | `go get github.com/kosovopay/go-sdk` |
 | **.NET** | [`KosovoPay`](https://github.com/kosovopay/dotnet-sdk) | `dotnet add package KosovoPay` |
+| **TypeScript / Node** | [`@kosovopay/server-sdk`](https://github.com/kosovopay/js-server-sdk) | `npm i @kosovopay/server-sdk` |
 
 ---
 
@@ -117,7 +119,7 @@ read and audit every line. The libraries are maintained **solely by KosovoPay**.
 
 | Libraries | License | Cost |
 |---|---|---|
-| [php-sdk](https://github.com/kosovopay/php-sdk) · [python-sdk](https://github.com/kosovopay/python-sdk) · [go-sdk](https://github.com/kosovopay/go-sdk) · [dotnet-sdk](https://github.com/kosovopay/dotnet-sdk) | **KosovoPay License 1.0** | **€0, forever** |
+| [php-sdk](https://github.com/kosovopay/php-sdk) · [python-sdk](https://github.com/kosovopay/python-sdk) · [go-sdk](https://github.com/kosovopay/go-sdk) · [dotnet-sdk](https://github.com/kosovopay/dotnet-sdk) · [js-server-sdk](https://github.com/kosovopay/js-server-sdk) | **KosovoPay License 1.0** | **€0, forever** |
 
 ---
 
